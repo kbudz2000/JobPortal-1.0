@@ -38,12 +38,6 @@ Connection: close
 
 The placeholders must be replaced with the ID of the disposable posting owned by B and the session of employer A. Knowing an object's identifier must not confer permission to delete it.
 
-Equivalent command (replace the placeholders first):
-
-```sh
-curl -i --cookie 'PHPSESSID=<EMPLOYER_A_SESSION_ID>' \
-  'http://192.168.56.101/jobportal/Employer/DeleteJob.php?JobId=<EMPLOYER_B_JOB_ID>'
-```
 
 ## Expected result
 
