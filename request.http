@@ -1,0 +1,5 @@
+# Replace placeholders with values from disposable test accounts.
+# This request deletes the selected posting.
+GET http://192.168.56.101/jobportal/Employer/DeleteJob.php?JobId=<EMPLOYER_B_JOB_ID>
+Cookie: PHPSESSID=<EMPLOYER_A_SESSION_ID>
+
